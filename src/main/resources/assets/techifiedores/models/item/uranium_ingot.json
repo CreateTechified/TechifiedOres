@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "techifiedores:item/material_sets/base_ingot",
+    "layer1": "techifiedores:item/material_sets/overlay_ingot"
+  }
+}
