@@ -4,20 +4,20 @@ public class MaterialDef {
     private final String name;
     private final int color;
 
-    private boolean hasIngot;
-    private boolean hasNugget;
-    private boolean hasOverworldOre;
-    private boolean hasNetherOre;
-    private boolean hasEndOre;
-    private boolean hasRawOre;
-    private boolean hasRawOreBlock;
-    private boolean hasBlock;
-    private boolean hasGemstone;
-    private boolean hasDust;
-    private boolean hasGear;
-    private boolean hasRod;
-    private boolean hasPlate;
-    private boolean hasLongRod;
+    private boolean hasIngot = true;
+    private boolean hasNugget = true;
+    private boolean hasOverworldOre = true;
+    private boolean hasNetherOre = true;
+    private boolean hasEndOre = true;
+    private boolean hasRawOre = true;
+    private boolean hasRawOreBlock = true;
+    private boolean hasBlock = true;
+    private boolean hasGemstone = true;
+    private boolean hasDust = true;
+    private boolean hasGear = true;
+    private boolean hasRod = true;
+    private boolean hasPlate = true;
+    private boolean hasLongRod = true;
 
     private MaterialDef(String name, int color) {
         this.name = name;
@@ -96,14 +96,6 @@ public class MaterialDef {
 
     public MaterialDef noLongRod() {
         this.hasLongRod = false;
-        return this;
-    }
-
-    public MaterialDef mainlinetesting() {
-        this.hasIngot = true;
-        this.hasBlock = true;
-        this.hasOverworldOre = true;
-        this.hasDust = true;
         return this;
     }
 
