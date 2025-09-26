@@ -14,7 +14,7 @@ public class ModCreativeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
     public static final RegistryObject<CreativeModeTab> TECHIFIEDORES = CREATIVE_TABS.register("techifiedores", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.techifiedores.creativeTab"))
-            .icon(() -> new ItemStack(Items.DIAMOND_ORE))
+            .icon(() -> new ItemStack(Items.COPPER_INGOT))
             .displayItems(((itemDisplayParameters, output) -> {
                 ModRegistries.ITEMS.getEntries().forEach(item -> output.accept(item.get()));
                 ModRegistries.BLOCKS.getEntries().forEach(block -> output.accept(block.get().asItem()));
