@@ -1,5 +1,6 @@
 package io.github.createtechified.techifiedores.utils;
 
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
@@ -15,5 +16,13 @@ public class TintableMaterialBlock extends Block {
 
     public MaterialDef getMaterial() {
         return material;
+    }
+
+    public ResourceLocation getBaseTexture() {
+        return new ResourceLocation("techifiedores", "item/material_sets/base_" + form);
+    }
+
+    public ResourceLocation getOverlayTexture() {
+        return new ResourceLocation("techifiedores", "item/material_sets/overlay_" + form);
     }
 }

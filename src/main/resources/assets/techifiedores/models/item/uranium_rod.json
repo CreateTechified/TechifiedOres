@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "techifiedores:item/material_sets/base/rod",
+    "layer1": "techifiedores:item/material_sets/secondary/rod",
+    "layer2": "techifiedores:item/material_sets/overlay/rod"
+  }
+}

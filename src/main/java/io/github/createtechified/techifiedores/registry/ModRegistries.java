@@ -31,7 +31,7 @@ public class ModRegistries {
     private static void registerMaterial(MaterialDef mat) {
         // Blocks
         if (mat.hasBlock()) registerBlock(mat, "block", Blocks.IRON_BLOCK);
-        if (mat.hasRawOreBlock()) registerBlock(mat, "raw_block", Blocks.RAW_IRON_BLOCK);
+        if (mat.hasRawOreBlock()) registerBlock(mat, "raw_ore_block", Blocks.RAW_IRON_BLOCK);
 
         // Ores
         if (mat.hasOverworldOre()) registerBlock(mat, "ore", Blocks.STONE);
