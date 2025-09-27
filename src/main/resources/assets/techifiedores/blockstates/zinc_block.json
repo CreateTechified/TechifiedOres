@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "techifiedores:block/storage_block" }
+    "": {
+      "model": "techifiedores:block/storage_block"
+    }
   }
 }

@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "base": "techifiedores:block/material_sets/base_block",
-    "overlay": "techifiedores:block/material_sets/overlay_block"
+    "base": "techifiedores:block/material_sets/base/block",
+    "overlay": "techifiedores:block/material_sets/overlay/block"
   },
   "elements": [
     {

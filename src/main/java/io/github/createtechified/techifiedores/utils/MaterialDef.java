@@ -3,6 +3,7 @@ package io.github.createtechified.techifiedores.utils;
 public class MaterialDef {
     private final String name;
     private final int color;
+    private int harvestLevel = 0; //0-wood/gold 1-stone 2-iron 3-diamond
 
     private boolean hasIngot = true;
     private boolean hasNugget = true;
@@ -19,13 +20,14 @@ public class MaterialDef {
     private boolean hasPlate = true;
     private boolean hasLongRod = true;
 
-    private MaterialDef(String name, int color) {
+    private MaterialDef(String name, int color, int harvestLevel) {
         this.name = name;
         this.color = color;
+        this.harvestLevel = harvestLevel;
     }
 
-    public static MaterialDef of(String name, int color) {
-        return new MaterialDef(name, color);
+    public static MaterialDef of(String name, int color, int harvestLevel) {
+        return new MaterialDef(name, color, harvestLevel);
     }
 
     // Toggles!
@@ -102,6 +104,7 @@ public class MaterialDef {
     // Getters
     public String name() { return name; }
     public int color() { return color; }
+    public int harvestLevel() { return harvestLevel; }
     public boolean hasIngot() { return hasIngot; }
     public boolean hasNugget() { return hasNugget; }
     public boolean hasOverworldOre() { return hasOverworldOre; }

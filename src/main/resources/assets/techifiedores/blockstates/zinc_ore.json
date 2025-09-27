@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "techifiedores:block/stone_ore" }
+    "": {
+      "model": "techifiedores:block/stone_ore"
+    }
   }
 }

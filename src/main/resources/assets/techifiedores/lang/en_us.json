@@ -1,29 +1,25 @@
 {
-  "itemGroup.techifiedores.creativeTab": "TechifiedOres",
-
-  "block.techifiedores.zinc_ore": "Zinc Ore",
-  "block.techifiedores.zinc_raw_ore_block": "Zinc Raw Ore Block",
-  "block.techifiedores.zinc_block": "Zinc Block",
-
-  "item.techifiedores.zinc_raw_ore": "Zinc Raw Ore",
-  "item.techifiedores.zinc_ingot": "Zinc Ingot",
-  "item.techifiedores.zinc_nugget": "Zinc Nugget",
-  "item.techifiedores.zinc_dust": "Zinc Dust",
-  "item.techifiedores.zinc_plate": "Zinc Plate",
-  "item.techifiedores.zinc_gear": "Zinc Gear",
-  "item.techifiedores.zinc_rod": "Zinc Rod",
-  "item.techifiedores.zinc_long_rod": "Zinc Long Rod",
-
+  "block.techifiedores.uranium_block": "Uranium Block",
   "block.techifiedores.uranium_ore": "Uranium Ore",
   "block.techifiedores.uranium_raw_ore_block": "Uranium Raw Ore Block",
-  "block.techifiedores.uranium_block": "Uranium Block",
-
-  "item.techifiedores.uranium_raw_ore": "Uranium Raw Ore",
-  "item.techifiedores.uranium_ingot": "Uranium Ingot",
-  "item.techifiedores.uranium_nugget": "Uranium Nugget",
+  "block.techifiedores.zinc_block": "Zinc Block",
+  "block.techifiedores.zinc_ore": "Zinc Ore",
+  "block.techifiedores.zinc_raw_ore_block": "Zinc Raw Ore Block",
   "item.techifiedores.uranium_dust": "Uranium Dust",
-  "item.techifiedores.uranium_plate": "Uranium Plate",
   "item.techifiedores.uranium_gear": "Uranium Gear",
+  "item.techifiedores.uranium_ingot": "Uranium Ingot",
+  "item.techifiedores.uranium_long_rod": "Uranium Long Rod",
+  "item.techifiedores.uranium_nugget": "Uranium Nugget",
+  "item.techifiedores.uranium_plate": "Uranium Plate",
+  "item.techifiedores.uranium_raw_ore": "Uranium Raw Ore",
   "item.techifiedores.uranium_rod": "Uranium Rod",
-  "item.techifiedores.uranium_long_rod": "Uranium Long Rod"
+  "item.techifiedores.zinc_dust": "Zinc Dust",
+  "item.techifiedores.zinc_gear": "Zinc Gear",
+  "item.techifiedores.zinc_ingot": "Zinc Ingot",
+  "item.techifiedores.zinc_long_rod": "Zinc Long Rod",
+  "item.techifiedores.zinc_nugget": "Zinc Nugget",
+  "item.techifiedores.zinc_plate": "Zinc Plate",
+  "item.techifiedores.zinc_raw_ore": "Zinc Raw Ore",
+  "item.techifiedores.zinc_rod": "Zinc Rod",
+  "itemGroup.techifiedores.creativeTab": "TechifiedOres"
 }
