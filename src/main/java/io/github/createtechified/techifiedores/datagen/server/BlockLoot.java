@@ -30,10 +30,15 @@ public class BlockLoot extends BlockLootSubProvider {
                 case "block", "raw_ore_block" -> this.dropSelf(block);
                 case "ore", "nether_ore", "end_ore" -> {
                     String rawItemKey = material + "_raw_ore";
+                    String dustItemKey = material + "_dust";
                     RegistryObject<Item> rawItemEntry = ModRegistries.ITEMS.getEntries().stream().filter(e -> e.getId().getPath().equals(rawItemKey)).findFirst().orElse(null);
+                    RegistryObject<Item> dustItemEntry = ModRegistries.ITEMS.getEntries().stream().filter(e -> e.getId().getPath().equals(dustItemKey)).findFirst().orElse(null);
                     if (rawItemEntry != null) {
                         Item rawItem = rawItemEntry.get();
                         this.add(block, createOreDrop(block, rawItem));
+                    } else if (material.equals("graphite")) {
+                        Item dustItem = dustItemEntry.get();
+                        this.add(block, createOreDrop(block, dustItem));
                     } else {
                         this.dropSelf(block);
                     }

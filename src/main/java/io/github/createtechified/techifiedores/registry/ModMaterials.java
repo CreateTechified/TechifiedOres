@@ -16,7 +16,7 @@ public class ModMaterials {
             MaterialDef.of("osmium", 0x889EC3, 1).noGemstone().noNetherOre().noEndOre(),
             MaterialDef.of("nickel", 0xFFFFBD, 1).noGemstone().noNetherOre().noEndOre(),
             MaterialDef.of("lead", 0x686CB6, 1).noGemstone().noNetherOre().noEndOre(),
-            MaterialDef.of("graphite", 0x41424C, 1).noGemstone().noIngot().noNugget().noNetherOre().noEndOre(),
+            MaterialDef.of("graphite", 0x41424C, 1).noGemstone().noIngot().noNugget().noNetherOre().noEndOre().noRawOre().noRawOreBlock(),
             MaterialDef.of("electrum", 0xFFFF85, 1).noGemstone().noOverworldOre().noNetherOre().noEndOre().noRawOre().noRawOreBlock(),
             MaterialDef.of("constantan", 0xFFC266, 1).noGemstone().noOverworldOre().noNetherOre().noEndOre().noRawOre().noRawOreBlock(),
             MaterialDef.of("bronze", 0x875C00, 1).noGemstone().noOverworldOre().noNetherOre().noEndOre().noRawOre().noRawOreBlock(),
