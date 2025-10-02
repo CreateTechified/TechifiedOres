@@ -1,9 +1,11 @@
 package io.github.createtechified.techifiedores.utils;
 
 public class MaterialDef {
+
     private final String name;
     private final int color;
     private int harvestLevel = 0; //0-wood/gold 1-stone 2-iron 3-diamond
+    private String materialSet;
 
     private boolean hasIngot = true;
     private boolean hasNugget = true;
@@ -20,14 +22,25 @@ public class MaterialDef {
     private boolean hasPlate = true;
     private boolean hasLongRod = true;
 
-    private MaterialDef(String name, int color, int harvestLevel) {
+    private MaterialDef(
+        String name,
+        int color,
+        int harvestLevel,
+        String materialSet
+    ) {
         this.name = name;
         this.color = color;
         this.harvestLevel = harvestLevel;
+        this.materialSet = materialSet;
     }
 
-    public static MaterialDef of(String name, int color, int harvestLevel) {
-        return new MaterialDef(name, color, harvestLevel);
+    public static MaterialDef of(
+        String name,
+        int color,
+        int harvestLevel,
+        String materialSet
+    ) {
+        return new MaterialDef(name, color, harvestLevel, materialSet);
     }
 
     // Toggles!
@@ -102,21 +115,75 @@ public class MaterialDef {
     }
 
     // Getters
-    public String name() { return name; }
-    public int color() { return color; }
-    public int harvestLevel() { return harvestLevel; }
-    public boolean hasIngot() { return hasIngot; }
-    public boolean hasNugget() { return hasNugget; }
-    public boolean hasOverworldOre() { return hasOverworldOre; }
-    public boolean hasNetherOre() { return hasNetherOre; }
-    public boolean hasEndOre() { return hasEndOre; }
-    public boolean hasRawOre() { return hasRawOre; }
-    public boolean hasRawOreBlock() { return hasRawOreBlock; }
-    public boolean hasBlock() { return hasBlock; }
-    public boolean hasGemstone() { return hasGemstone; }
-    public boolean hasDust() { return hasDust; }
-    public boolean hasGear() { return hasGear; }
-    public boolean hasRod() { return hasRod; }
-    public boolean hasPlate() { return hasPlate; }
-    public boolean hasLongRod() { return hasLongRod; }
+    public String name() {
+        return name;
+    }
+
+    public int color() {
+        return color;
+    }
+
+    public int harvestLevel() {
+        return harvestLevel;
+    }
+
+    public String materialSet() {
+        return materialSet;
+    }
+
+    public boolean hasIngot() {
+        return hasIngot;
+    }
+
+    public boolean hasNugget() {
+        return hasNugget;
+    }
+
+    public boolean hasOverworldOre() {
+        return hasOverworldOre;
+    }
+
+    public boolean hasNetherOre() {
+        return hasNetherOre;
+    }
+
+    public boolean hasEndOre() {
+        return hasEndOre;
+    }
+
+    public boolean hasRawOre() {
+        return hasRawOre;
+    }
+
+    public boolean hasRawOreBlock() {
+        return hasRawOreBlock;
+    }
+
+    public boolean hasBlock() {
+        return hasBlock;
+    }
+
+    public boolean hasGemstone() {
+        return hasGemstone;
+    }
+
+    public boolean hasDust() {
+        return hasDust;
+    }
+
+    public boolean hasGear() {
+        return hasGear;
+    }
+
+    public boolean hasRod() {
+        return hasRod;
+    }
+
+    public boolean hasPlate() {
+        return hasPlate;
+    }
+
+    public boolean hasLongRod() {
+        return hasLongRod;
+    }
 }
