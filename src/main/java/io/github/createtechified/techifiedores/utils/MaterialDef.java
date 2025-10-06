@@ -5,7 +5,7 @@ public class MaterialDef {
     private final String name;
     private final int color;
     private int harvestLevel = 0; //0-wood/gold 1-stone 2-iron 3-diamond
-    private String materialSet;
+    private final String materialSet;
 
     private boolean hasIngot = true;
     private boolean hasNugget = true;
